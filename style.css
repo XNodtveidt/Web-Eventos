@@ -24,6 +24,7 @@
     height: 680px;
     background: url('img/ImgFondo.jpg') center / cover no-repeat;
     object-fit: cover;
+    padding: 100px;
 }
 .textoP h1{
     font-family: "Oswald", sans-serif;
@@ -36,21 +37,113 @@
     padding-top: 80px;
 }
 
-.textoP{
-    padding: 100px;
+
+.contenedor{
+    text-align: center;
+    margin-top: 90px;
+    
+}
+.contenedor h1{
+    font-family: "Oswald", sans-serif;
+    font-weight: 650;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+
+.contenedor-custom {
+    max-width: 90%; /* Reduce el margen lateral */
+    margin: 0 auto; /* Centra el contenido */
+    padding-bottom: 50px;
 }
 
 .card-image img {
-    width: 100%;
-    height: auto;
-    z-index: 100;
+    width: 100%;         
+    height: 200px;       
+    object-fit: cover; 
 }
 
-.contenedor {
-    margin-top: 300px;
-    margin-left: 300px;
-    margin-right: 200px;
-    background-color: white;
+.card span{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400 !important;
     
 }
 
+.page-footer h5{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.contenedor-footer{
+    padding-top: 10px;
+    border-top: 2px solid rgb(20, 20, 20);
+    padding-bottom: 10px;
+}
+
+/*---------------------------- Quienes Somos ----------------------------*/
+
+.contenedor-quienesomos h1 {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+.contenedor-quienesomos h2{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.contenedor-quienesomos{
+    padding-bottom: 20px;
+}
+.contenedor-quienesomos img{
+    width: 70%;          /* Ocupa todo el ancho del contenedor */
+    height: 70%;         /* Ocupa todo el alto del contenedor */
+    object-fit: cover;    /* Recorta la imagen sin deformarla */
+    display: block; 
+    float: right;
+}
+.izq img{
+    width: 70%;          /* Ocupa todo el ancho del contenedor */
+    height: 70%;         /* Ocupa todo el alto del contenedor */
+    object-fit: cover;    /* Recorta la imagen sin deformarla */
+    display: block; 
+    float: left !important;
+}
+
+.mision-vision {
+    display: flex;
+    align-items: stretch; /* Hace que ambas columnas tengan la misma altura */
+}
+
+.mision-vision .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el contenido verticalmente */
+}
+.valores{
+    margin-top: 30px;
+}
+
+
+
+.imgMV .col {
+    display: flex;
+    justify-content: center; /* Centra la imagen dentro de la columna */
+    align-items: center;
+}
+
+/*---------------------------------catalogo-------------------------------------------*/
+
+.contenedor-catalogo h1{
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+.contenedor-catalogo h2{
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+}
+
+.titulo-tarjeta{
+    font-family: "Oswald", sans-serif !important;
+}
